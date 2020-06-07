@@ -13,7 +13,11 @@ module.exports = {
         'space-before-function-paren': 0,
         indent: 0,
         'no-undef': 0,
-        'eol-last': 0
+        'eol-last': 0,
+        'no-trailing-spaces': 0,
+        'quotes': 0,
+        'object-curly-spacing': 0,
+        'prefer-const': 0
     },
     parserOptions: {
         parser: 'babel-eslint'
